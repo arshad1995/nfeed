@@ -1,0 +1,10 @@
+.header {
+  background-color: rgb(190, 22, 22);
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 22px;
+}
+.header > p {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  max-width: 680px;
+  margin: 10px;
+  background-color: #ececec;
+  border-radius: 4px;
+}
+
+.card1 {
+  width: 50%;
+  height: 60%;
+}
+.card1 > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+}
+.card1 > img:hover {
+  transition: transform 0.09s;
+  transform: scale(1.5);
+  width: 80px;
+  height: 80px;
+}
+.title > a {
+  color: rgb(7, 81, 219);
+  font-style: italic;
+  font-weight: bold;
+  padding: 0 10px 20px 0px;
+  text-decoration: none;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  padding: 6px;
+}
